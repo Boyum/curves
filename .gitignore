@@ -3,3 +3,4 @@ dist/
 .tmp
 app.yaml
 jsconfig.json
+.vscode
