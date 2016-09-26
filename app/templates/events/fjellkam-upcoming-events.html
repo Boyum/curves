@@ -1,0 +1,13 @@
+<div class="col-md-{{$ctrl.widthWeight}}" ng-show="$ctrl.numberOfEvents > 0">
+  <!-- Upcoming activities -->
+  <div class="card col-elm">
+    <h1 translate="ACTIVITIES" class="capital-first">Aktiviteter</h1>
+    <div class="events__container">
+      <div class="event" ng-repeat="event in $ctrl.events">
+        <a href="/events/{{event.category}}/{{event.id}}">
+          {{event.title}}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

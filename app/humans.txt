@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+Front-end Architect & Developer: Sindre Haugland Bøyum
+Contact: sindre@avexis.no
+Twitter: @SindreBoyum
+From: Bergen, Norway
+
+Back-end Architect & Developer/Front-end Developer: Patricio Alexander Castillo
+Contact: alexander@avexis.no
+Twitter: @PAlexCast
+From: Bergen, Norway
+
+# THANKS
+
+<>
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, AngularJS

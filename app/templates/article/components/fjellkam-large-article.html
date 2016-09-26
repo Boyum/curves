@@ -1,0 +1,29 @@
+<div id="article-id-{{$ctrl.article.id}}" class="large-article__container">
+  <div class="large-article__info-container">
+    <img class="large-article__image" src="{{$ctrl.article.image.placeholder}}" ng-src="{{$ctrl.article.image.image}}" />
+
+
+  </div>
+  <div>
+    <a class="large-article__title" href="/nyheter/{{$ctrl.article.id}}">
+      <h2 ng-bind-html="$ctrl.article.title"></h2>
+    </a>
+    <div class="large-article__author-date">
+      <div class="large-article__author">
+        <span class="sr-only capital-first" translate="AUTHOR"></span>
+        <span class="sr-only">:</span> <span ng-bind-html="$ctrl.article.user.name"></span>
+      </div>
+      <div class="large-article__date">
+        <span class="sr-only capital-first" translate="PUBLISHED"></span> {{$ctrl.article.publishDate | date:'HH:mm dd.MM.yy'}}
+      </div>
+    </div>
+    <div class="large-article__content-container">
+      <p class="large-article__ingress" ng-bind-html="$ctrl.article.ingress"></p>
+      <p class="large-article__content" ng-bind-html="$ctrl.article.content"></p>
+
+    </div>
+
+  </div>
+
+
+</div>
