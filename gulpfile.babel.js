@@ -118,22 +118,7 @@ gulp.task('scripts', () =>
     // Note: Since we are not using useref in the scripts build pipeline,
     //       you need to explicitly list your scripts here in the right order
     //       to be correctly concatenated
-    './bower_components/angular/angular.min.js',
-    './bower_components/angular-route/angular-route.min.js',
-    './bower_components/angular-cookies/angular-cookies.min.js',
-    './bower_components/angular-translate/angular-translate.min.js',
-    './bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js',
-    './bower_components/jquery/dist/jquery.min.js',
-    './bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
-    './app/lib/terrillthompson/jquery-accessibleMegaMenu.js',
-    './app/lib/google-side-nav/detabinator.js',
-    './app/lib/google-side-nav/side-nav.js',
-    './app/scripts/strings/strings_nb.js',
-    './app/scripts/strings/strings_en.js',
-    './app/lib/fg-loadcss/src/loadCSS.js',
-    './app/lib/fg-loadcss/src/cssrelpreload.js',
-    './app/scripts/**/*.js',
-    './app/scripts/app.js'
+    './app/scripts/**/*.js'
   ])
   .pipe($.newer('.tmp/scripts'))
   .pipe($.sourcemaps.init())

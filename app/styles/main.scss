@@ -5,16 +5,3 @@
 @import 'helpers/functions';
 @import 'helpers/mixins';
 @import 'helpers/variables';
-// layout
-@import 'layout/frontpage/frontpage';
-@import 'layout/error/404';
-// Components
-@import 'components/card';
-@import 'components/col-elm';
-@import 'components/event';
-@import 'components/loader';
-@import 'components/article';
-// Bootstrap - uncomment needed parts
-@import '../lib/bootstrap-sass/bootstrap-custom';
-// FontAwesome
-@import '../lib/font-awesome/font-awesome-custom';
