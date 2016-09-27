@@ -24,16 +24,5 @@ const pi = Math.PI;
     ctx.translate(lineLength,0);
   }
 
-  // function drawLine(from, to, angle) {
-  //   ctx.moveTo(from.x, from.y);
-  //   ctx.lineTo(to.x, to.y);
-  //   ctx.stroke();
-
-  //   drawLine(to.x, to.y)
-  // }
-
-
-  // ctx.moveTo(width/4, height/2);
-  // ctx.lineTo()
 
 })();
